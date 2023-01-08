@@ -1,0 +1,19 @@
+.par {
+    background-color: #e25da6;
+    font-family: Verdana, DejaVu sans, sans-serif;
+}
+
+#div1 {
+    font-size: 36px;
+    color: rgba(0, 0, 255, 0.781);
+}
+
+#middle {
+    font-size: 24px;
+}
+
+#div2 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
