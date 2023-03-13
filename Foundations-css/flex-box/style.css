@@ -1,0 +1,15 @@
+.container {
+    height: 140px;
+    padding: 10px;
+    background: #b84db8;
+    display: flex;
+    border: solid 4px purple;
+}
+
+.item {
+    height: 60px;
+    width: 60px;
+    border: solid 4px darkblue;
+    background: #7474d4;
+    flex: 1;
+}
