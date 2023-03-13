@@ -1,14 +1,18 @@
 body {
     background-color: #0b0b1b;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 form {
     padding: 8px;
     border: 1px solid #808080;
+    border-radius: 5px;
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 20px;
   }
 
 label {
@@ -22,20 +26,44 @@ input {
     margin-top: 4px;
  }
 button {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
     height: 2.5rem;
+    border: 1px #9b9a9a;
+    border-radius: 5px;
+    flex-grow: 1;
+    flex-basis: 70px;
+    background-color: #9b9a9a;
   }
 
+  ::placeholder {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  #email-field {
+    background-color: #0b0b1b;
+    border: none;
+    border-bottom:1px solid #9b9a9a;
+
+  }
+
+  #name-field {
+    background-color: #0b0b1b;
+    border: none;
+    border-bottom:1px solid #9b9a9a;
+
+  }
+.space {
+    color: white;
+  }
 .name {
     flex-grow: 1;
     flex-basis: 120px;
   }
+
 .email {
     flex-grow: 3;
     flex-basis: 170px;
-  }
-
-button {
-    flex-grow: 1;
-    flex-basis: 70px;
-    background-color: gray;
   }
