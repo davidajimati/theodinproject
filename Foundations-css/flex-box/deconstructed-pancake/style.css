@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+.container {
+    height: 400px;
+    background-color: white;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    display: flex;
+    gap: 2px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+
+    flex: 0 1 120px;
+    border: 2px solid blanchedalmond;
+    border-radius: 5px;
+    background-color: aqua;
+}
