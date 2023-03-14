@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.container {
+    height: 500px;
+    border: 1px #ffbcbc solid;
+    border-radius: 5px;
+    padding: 3px;
+    display: flex;
+    gap: 2px;
+}
+
+.container .item {
+    border: 1px solid rgb(229, 230, 173);
+    border-radius: 5px;
+    flex-basis: 250px;
+    flex-direction: column;
+    display: flex;
+}
+
+.container .text-box {
+    background-color: rgb(245, 233, 211);
+    flex: 1 1 auto;
+    padding: 10px;
+}
+
+.foot {
+    height: 50px;
+    background-color: aqua;
+    text-align: center;
+}
+
