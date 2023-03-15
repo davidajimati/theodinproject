@@ -1,2 +1,1 @@
-This Repository contains project works and tasks solved when I learnt web development
-from the Odin Project.
+CSS EXERCISES of the Odin Project Full Stack web developemt bootcamp
