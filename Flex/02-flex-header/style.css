@@ -1,0 +1,40 @@
+body {
+    background-color: #01010f;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    font-weight: bold;
+    font-size: small;
+}
+
+nav {
+    border: 3px solid white;
+    background-color: #f7eaeb;
+}
+
+.container {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 12px;
+    min-width: 500px;
+}
+
+.cont {
+    padding: 10px;
+    background-color: white;
+    flex: 0 0 30px;
+}
+.cont.logo {
+    flex: 1 1 20px;
+    min-width: 70px;
+    max-width: 100px;
+    margin: auto;
+    font-size:larger;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    color: #ff4c05;
+
+}
