@@ -8,39 +8,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drop Down</title>
 </head>
-<body>
-    <div class="menu_bar">
-        <ul>
-            <li class="home"><i class="fa fa-home"></i><a href="#">Home</a></li>
-            <li class="services"><a href="#">Services</a>
+<header class="menu_bar">
+    <ul>
+        <li class="home"><i class="fa fa-home"></i><a href="#">Home</a></li>
+        <li class="services"><a href="#">Services</a>
+        <div class="sub_services">
+            <ul>
+                <li><a href="#">SEO<i class="fa fa-angle-right"></i></a></li>
+                <li><a href="#">Copywriting<i class="fa fa-angle-right"></i></a></li>
+                <li><a href="#">Analytics<i class="fa fa-angle-right"></i></a></li>
+            </ul>
+        </div>
+        </li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Donate</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About Us</a>
             <div class="sub_services">
                 <ul>
-                    <li><a href="#">SEO</a></li>
-                    <li><a href="#">Copywriting</a></li>
-                    <li><a href="#">Analytics</a></li>
+                    <li><a href="#">Our Mission<i class="fa fa-angle-right"></i></a></li>
+                    <li><a href="#">Our Vision<i class="fa fa-angle-right"></i></a></li>
+                    <li><a href="#">What Drives Us<i class="fa fa-angle-right"></i></a></li>
                 </ul>
             </div>
-            </li>
-            <li><a href="#">About Us</a>
-                <div class="sub_services">
-                    <ul>
-                        <li><a href="#">Mission</a></li>
-                        <li><a href="#">Vision</a></li>
-                        <li><a href="#">Drive</a></li>
-                    </ul>
-                </div></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Donate</a>
-                <div class="sub_services">
-                    <ul>
-                        <li><a href="#">Sweden</a></li>
-                        <li><a href="#">Copywriting</a></li>
-                        <li><a href="#">Analytics</a></li>
-                    </ul>
-                </div></li>
-            <li><a href="#">Blog</a></li>
-        </ul>
+        </li>
+    </ul>
+</header>
+<body>
+    <video autoplay muted loop class="background_video">
+        <source src="images/earth.mp4" type="video/mp4">
+    </video>
 
+<div class="container">
+    <div class="content">
+        <h1>Explore More</h1>
+        <a href="#">Start Here</a>
+    </div>
 </div>
 </body>
 </html>
