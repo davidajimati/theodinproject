@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url(images/background.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.menu_bar {
+    background-color:#1e0785;
+    text-align: center;
+}
+
+.menu_bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.menu_bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu_bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.home, .menu_bar ul li:hover {
+    background-color: #2407a5;
+    border-radius: 3px;
+}
+
+.fa {
+    padding-right: 8px;
+}
+
+.sub_services {
+    display: none;
+}
+
+.menu_bar ul li:hover .sub_services {
+    display: block;
+    position: absolute;
+    background:#1e0785;
+    margin-top:15px;
+    margin-left: -15px;
+}
+
+.menu_bar ul li:hover .sub_services ul {
+    display: block;
+    margin: 8px;
+}
+
+.menu_bar ul li:hover .sub_services ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu_bar ul li:hover .sub_services ul li:last-child {
+    border-bottom: none;
+}
+
+.menu_bar ul li:hover .sub_services ul li a:hover {
+    color: #af9dff;
+}
