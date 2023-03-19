@@ -51,7 +51,7 @@ body {
     display: block;
     position: absolute;
     background:#1e0785;
-    margin-top:15px;
+    margin-top:12px;
     margin-left: -15px;
 }
 
@@ -74,7 +74,7 @@ body {
 }
 
 .menu_bar ul li:hover .sub_services ul li a:hover {
-    color: #af9dff;
+    color:#e29608;
 }
 
 .fa-angle-right {
@@ -116,11 +116,4 @@ body {
     right: 0;
     bottom: 0;
     z-index: -1;
-}
-
-@media (min-aspect-ratio:16/9) {
-    .background_video {
-        width: 100%;
-        height: auto;
-    }
 }
