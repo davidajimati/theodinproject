@@ -1,36 +1,39 @@
-function getComputerChoice() {
-  let num = Math.floor(Math.random() * 3);
+function getComputerChoice () {
+  const num = Math.floor(Math.random() * 3);
 
   if (num === 0) {
-    return "rock";
+    return 'rock';
   } else if (num === 1) {
-    return "paper";
+    return 'paper';
   } else {
-    return "scissors"
+    return 'scissors';
   }
 }
 
-function getUserInput() {
+function getUserInput () {
   // const Unum = prompt("Enter option");
-  return 'rock';
+  return 'scissors';
 }
 
-function play() {
-  const userChoice = toLowerCase(getUserInput())
-  const computerChoice = toLowerCase(getComputerChoice())
+function play () {
+  const userChoice = getUserInput().toLowerCase();
+  const computerChoice = getComputerChoice().toLowerCase();
 
-  switch (true) {
-    case userChoice === computerChoice:
-      console.log("It's a tie!");
-
-    case userChoice == "rock" && computerChoice == "scissors":
-      console.log("You win!\n\trock beats scissors");
-
-    case userChoice == 'scissors' && computerChoice == 'paper':
-      console.log("You win\n\tscissors cuts paper");
-
-    case userChoice == 'paper' && computerChoice == 'rock':
-      console.log("You win\n\tPaper Covers scissors");
-
+  if (userChoice === 'rock' && computerChoice === 'scissors') {
+    console.log('You win!\n\trock beats scissors');
+  } else if (userChoice === 'scissors' && computerChoice === 'paper') {
+    console.log('You win\n\tscissors cuts paper');
+  } else if (userChoice === 'paper' && computerChoice === 'rock') {
+    console.log('You win\n\tPaper Covers scissors');
+  } else if (computerChoice === 'rock' && userChoice === 'scissors') {
+    console.log('You Lose!\n\trock beats scissors');
+  } else if (computerChoice === 'scissors' && userChoice === 'paper') {
+    console.log('You Lose!\n\tscissors cuts paper');
+  } else if (computerChoice === 'paper' && userChoice === 'rock') {
+    console.log('You Lose!\n\tPaper Covers scissors');
+  } else {
+    console.log("It's a tie!");
   }
 }
+
+play();
